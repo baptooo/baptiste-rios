@@ -1,0 +1,72 @@
+body {
+  background: url(
+    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAJUlEQVQYV2NkwAT/GdHE/jMwMDAiC4IFQIpggjABuEq4CqhR/wEbSQcEChQUOwAAAABJRU5ErkJggg=="
+  ) repeat;
+}
+
+.my-css-scope-because-i-am-unique-try-to-override-me-bitch {
+  background: white;
+  max-width: 800px; /* Welcome back to the 90's */
+  max-height: 600px;
+  margin: auto;
+  overflow: scroll;
+  border: 10px inset #51ac5c;
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+.my-css-scope-because-i-am-unique-try-to-override-me-bitch .txt-1337 {
+  font-size: 400%;
+  padding: 25px 0;
+}
+
+.my-css-scope-because-i-am-unique-try-to-override-me-bitch a:visited {
+  color: #ff67a4;
+}
+
+.my-css-scope-because-i-am-unique-try-to-override-me-bitch section {
+  border: 4px inset #29F;
+  margin: 10px 0;
+  padding: 4px;
+}
+
+.my-css-scope-because-i-am-unique-try-to-override-me-bitch section:target {
+  font-family: "Comic Sans MS";
+}
+
+.my-css-scope-because-i-am-unique-try-to-override-me-bitch section:target:before {
+  display: block;
+  content: "Using anchors costs: enjoy Comic Sans MS";
+}
+
+.my-css-scope-because-i-am-unique-try-to-override-me-bitch nav {
+  border: 4px inset #cec147;
+  margin: 10px;
+  padding: 4px;
+  background: linear-gradient(white, #cec147);
+}
+
+@media screen and (max-width: 700px) {
+  .my-css-scope-because-i-am-unique-try-to-override-me-bitch {
+    color: red;
+    background: red;
+  }
+
+  .my-css-scope-because-i-am-unique-try-to-override-me-bitch:before {
+    display: block;
+    content: 'Ruining small screens experience for fun.';
+    font-size: 400%;
+    color: white;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .my-css-scope-because-i-am-unique-try-to-override-me-bitch section {
+    display: none;
+  }
+}
+
+.my-css-scope-because-i-am-unique-try-to-override-me-bitch .picture-of-the-month img {
+  max-width: 100%;
+  width: auto;
+}
